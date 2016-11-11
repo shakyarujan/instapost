@@ -29,6 +29,9 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 #gem for devise
 gem 'devise'
 
+#gem for carrierwave
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
