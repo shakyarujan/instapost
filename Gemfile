@@ -29,6 +29,9 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 #gem for devise
 gem 'devise'
 
+#gem for simple form
+gem 'simple_form'
+
 #gem for carrierwave
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 
