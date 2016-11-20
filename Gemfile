@@ -35,6 +35,9 @@ gem 'simple_form'
 #gem for carrierwave
 gem 'carrierwave'
 
+#gem for Acts As Likeable
+gem 'acts_as_votable', '~> 0.10.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
