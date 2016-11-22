@@ -24,7 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # gem for bootstrap
-gem 'bootstrap', '~> 4.0.0.alpha5'
+#gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 #gem for devise
 gem 'devise'
@@ -37,6 +38,12 @@ gem 'carrierwave'
 
 #gem for Acts As Likeable
 gem 'acts_as_votable', '~> 0.10.0'
+
+#gem for likebotton
+gem 'font-awesome-sass', '~> 4.6.2'
+
+#gem for endless scroll
+gem 'will_paginate', '~> 3.0.7'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

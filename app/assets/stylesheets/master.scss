@@ -1,16 +1,20 @@
 body {
-  background-color: #FAFAFA;
+   background-color: #f5f5f5;
+   color: #9a1414;
 }
+
 nav {
   border-bottom: 1px solid #dbdbdb;
    background-color: #ffffff;
     height: 76px;
 }
+
 .brand {
   font-family: 'Satisfy', cursive;
   font-size: 25px;
   vertical-align: middle;
 }
+
 .nav_links {
   vertical-align: middle;
   font-size: 15px;
@@ -19,12 +23,12 @@ nav {
 }
 
 .nav_wrapper {
-  line-height: 78px;
+  line-height: 80px;
 }
 
 .photo {
-  width: 30%;
-  max-height: 50%;
+  width: 100%;
+  max-height: 100%;
   display: block;
     margin-left: auto;
     margin-right: auto
@@ -35,22 +39,31 @@ nav {
   border: 1px solid #edeeee;
   border-radius: 3px;
   margin: 60px 0px;
-  margin-left: -1px;
-  margin-right: -1px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .post_header{
-  height: 64px;
+  height: 60px;
   padding: 14px 20px;
   font-weight: 600;
 }
 
 .post_body{
   padding: 10px 24px 0px 24px;
+  
+}
+
+.likes{
+  padding-left: 20px;
 }
 
 .post_comments {
   padding: 10px 25px;
+}
+
+.comment{
+  margin-bottom:10px;
 }
 
 .timestamp {
@@ -99,6 +112,51 @@ nav {
 
 .prof_pic_small {
   border-radius: 50%;
-  height: 28px;
-  width: 28px;
+  height: 35px;
+  width: 35px;
+}
+.post_like {
+  .fa {
+    font-size: 20px;
+  }
+}
+
+.controls{
+  width: 100%;
+}
+
+.center-block{
+  padding-left: 50px;
+}
+
+.register{
+  padding-top:10px;
+}
+
+.signup{
+  padding-top:30px;
+}
+
+hr{
+  margin:0 auto;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.control{
+  padding-top:5px;
+}
+
+.prof_show {
+  margin-right:auto;
+  margin-left:auto;
+  padding: 10px;
+  position: relative;
+    float: left;
+    background-position: 100% 100%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
 }

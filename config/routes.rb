@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   #adding the resources for post
   resources :posts do
     resources :comments
+    resources :upvotes, only: :create
+    resources :downvotes, only: :create
   end
   
   #user show
