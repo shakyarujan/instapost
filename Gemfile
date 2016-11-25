@@ -7,7 +7,7 @@ gem 'rails', '4.2.5'
 #gem 'sqlite3'
 
 #use of postgresql
-
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -59,7 +59,6 @@ gem 'will_paginate', '~> 3.0.7'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-    gem "sqlite3"
     gem "pry-rails"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
